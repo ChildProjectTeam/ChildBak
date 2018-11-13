@@ -7,7 +7,7 @@ import java.io.*;
  *    com.sist.music.model.DeleteModel 
  */
 public class FileChange {
-	ArrayList<String> list=new ArrayList<String>();
+	ArrayList<String> list=new ArrayList<String>(); 
 	public ArrayList<String> componentScan(ArrayList<String> pList)
 	{
 		try
