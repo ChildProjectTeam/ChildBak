@@ -12,7 +12,7 @@ public class FileChange {
 	{
 		try
 		{
-			String path="C:\\Users\\gyeongjin\\git\\ChildBak\\src\\";
+			String path="C:\\Users\\jimin\\git\\ChildBak\\src\\";
 			for(String pack:pList)
 			{
 				String s=pack.replace(".", "\\");

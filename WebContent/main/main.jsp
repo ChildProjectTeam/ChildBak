@@ -6,6 +6,7 @@
 <meta charset="EUC-KR">
 <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
 <title>Insert title here</title>
+<link rel="stylesheet" href="css/style.css">
 <style type="text/css">
 body,div,dl,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,p,form,fieldset,button,input
 {
@@ -246,4 +247,6 @@ body,div,dl,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,p,form,fieldset,button,input
 	<jsp:include page="${main_jsp }"></jsp:include>
    <footer id="footer"></footer>
 </body>
+ <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+ <script  src="js/index.js"></script>
 </html>
