@@ -8,7 +8,7 @@ import java.util.*;
 /*import com.sist.recipe.dao.*;
 import com.sist.recipe.manager.*;*/
 public class MainModel {
-	@RequestMapping("main/main.do")
+	@RequestMapping("main/main.do") 
 	public String main_main(HttpServletRequest req,HttpServletResponse res)
 	{
 		/*// °á°ú°ª

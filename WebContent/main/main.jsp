@@ -2,7 +2,7 @@
     pageEncoding="EUC-KR"%>-->
 <!DOCTYPE html>
 <html>
-<head>
+<head> 
 <meta charset="EUC-KR">
 <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
 <title>Insert title here</title>
