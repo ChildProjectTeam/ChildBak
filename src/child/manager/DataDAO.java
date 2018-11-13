@@ -49,9 +49,9 @@ public class DataDAO {
 			//ps.getConnection().prepareStatement(sql);
 			// SQL 
 			// SQL ==> ORA-100 
-			ps.setString(1, vo.getTitle());
+			/*ps.setString(1, vo.getTitle());
 			ps.setString(2, vo.getPoster());
-			ps.setString(3, vo.getChef());
+			ps.setString(3, vo.getChef());*/
 			
 			// 실행 명령
 			ps.executeUpdate();

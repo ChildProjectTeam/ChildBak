@@ -243,62 +243,7 @@ body,div,dl,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,p,form,fieldset,button,input
 </head>
 <body>
 	<jsp:include page="menu.jsp"></jsp:include>
-	<jsp:include page="slider.jsp"></jsp:include>
-   <section id="content1">
-   	<div id="content">
-      <div class="reserve">
-		<div class="reserveBtn">
-			<div class="Btn_1"></div>
-			<div class="Btn_2"></div>
-			<div class="Btn_3"></div>
-			<div class="Btn_4"></div>
-			<div class="Btn_5"></div>
-		</div>
-	  </div>
-      <div class="best">
-          <div class="best_con">
-	          <div class="best_about"></div>
-	          <div class="best_slider"></div>
-          </div>
-      </div>
-      <div class="kg">
-      	<h2>kg</h2>
-      </div>
-      <div class="market">
-      	<div class="market_con">
-      		<div class="market_about">
-      		<center>
-      			<h2>Our classes</h2>
-      			<p>³»¿ë</p>
-      		</center>
-      		</div>
-      		<div class="market_item">
-      			<div class="item_1">
-      				<img src="images/5.jpg"/>
-      				<div class="detail">
-      					<h3>Color Match</h3>
-      					<img src="images/bubble.png">
-      					<p>15</p>
-      					<p2>by È«±æµ¿</p2>
-      					<p3>18.11.05</p3>
-      				</div>
-      				<div class="itemBtn1"></div>
-      			</div>
-      			
-      			<div class="item_2">
-      				<img src="images/4.jpg"> 
-      				<div class="itemBtn2"></div>
-      			</div>
-      			
-      			<div class="item_3">
-      				<img src="images/2.jpg">
-      				<div class="itemBtn3"></div>
-      			</div>
-      		</div>
-      	</div>
-      </div>
-   	</div>
-   </section>
+	<jsp:include page="${main_jsp }"></jsp:include>
    <footer id="footer"></footer>
 </body>
 </html>
